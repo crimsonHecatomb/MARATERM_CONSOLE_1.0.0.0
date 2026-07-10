@@ -1,0 +1,107 @@
+[Rainmeter]
+Update=1000
+
+[Metadata]
+    Name=NAME
+    Author=YOUR_NAME
+    Description=BASIC_FUNCTIONS
+    License=Creative Commons BY-NC-SA 3.0
+    Version=1.0.0
+
+[Variables]
+    ; Variables declared here can be used later on between two # characters (e.g. #MyVariable#).
+    ; Base aesthetics
+        ; Floating widgets
+            BackgroundMode=2
+            WIDGBackground=0, 0, 0, 1 ; Almost Transparent, helps with hitbox
+            WIDGFont=Monaco
+        
+        ; Top and bottom bars
+            BARBackground=39, 1, 0, 255    ; Faded Red
+            BARFontColor=255, 0, 0, 255    ; Red
+            BARFont=Courier New
+            BARFontSize=40
+
+        ; The colors
+            ColorTYC=255, 0, 0, 255    ; Red
+            ColorDUR=0, 255, 0, 255    ; Green
+            ColorLEE=0, 0, 255, 255    ; Blue
+            ColorTERM=255, 255, 255, 255   ; White
+
+        ; Dimmed background colors for the empty part of the bars
+            DimTYC=50, 0, 0, 255   ; Dimmed Red
+            DimDUR=0, 50, 0, 255   ; Dimmed Green
+            DimLEE=0, 0, 50, 255   ; Dimmed Blue
+
+        ; Bar margins. Change these to shift all elements at once
+            MarginTop=13
+            MarginLeft=15
+            MarginRight=15
+            Spacing=250
+
+; ----------------------------------
+; STYLES are used to "centralize" options
+; ----------------------------------
+
+    ; Floating widgets
+    [StyleTextCenter]
+        FontFace=#WIDGFont#
+        FontSize=12
+        AntiAlias=0
+        StringAlign=Center
+
+    ; Vertical bars
+    [StyleBar]
+        W=40
+        H=225
+        BarOrientation=VERTICAL
+
+    ; Horizontal bars
+    [StyleBar]
+        W=225
+        H=40
+        BarOrientation=HORIZONTAL
+
+; ----------------------------------
+; MEASURES return some kind of value
+; ----------------------------------
+
+    ; MEASURES GO IN HERE
+    [MEASURE_NAME]
+        Measure=MEASURE
+
+; ----------------------------------
+; METERS display images, text, bars, etc.
+; ----------------------------------
+
+    [METER_NAME]
+        Meter=TYPE
+        Shape=SHAPE_SPECIFICS
+        MeterStyle=STYLE
+        MeasureName=MEASURE
+        BarColor=COLOR
+        SolidColor=WIDGET_BACKGROUND
+        X=HORIZONTAL_POSITION
+        Y=VERTICAL_POSITION
+        W=WIDTH
+        H=HEIGHT
+        FontFace=FONT
+        FontSize=FONT_SIZE
+        FontWeight=FONT_WEIGHT
+        FontColor=FONT_COLOR
+        Text=TEXT_FOR_METER
+        NumOfDecimals=AMOUNT
+        AutoScale=YES_NO
+        Percentual=YES_NO
+        StringAlign=ALIGNMENT
+        Padding=VALUE
+        ClipString=VALUE
+        MouseScrollUpAction=[TASK]
+        MouseScrollDownAction=[TASK]
+        LeftMouseUpAction=[TASK]
+        MouseOverAction=[TASK]
+        MouseLeaveAction=[TASK]
+        FocusDismiss=YES_NO
+        DynamicVariables=YES_NO
+        AntiAlias=0
+        ToolTipText="TEXT_FOR_TOOLTIP"
