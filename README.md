@@ -57,7 +57,7 @@ Zarathustra
 ## DISCLAIMER:
 I am a graphic designer and illustrator, not a coder. The entire project was made with help from AI and may not be the cleanest.
 All design choices, layout, coloring elements and aesthetic choices were my own and I went over all of the code to clean it up to the best of my abiities.
-Zarathustra was also my own creation and a byproduct of the development of the widgets, his characterizaation and choice of literature were chosen by me.
+Zarathustra was also my own creation and a byproduct of the development of the widgets, his characterization and choice of literature were chosen by me.
 Finally, all of the writing is my own unless stated overwise. I wrote the poem and the message with no aid from AI, only a human proofreader.
 
 #### AI is a tool but should never be the final product.
